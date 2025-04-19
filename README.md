@@ -13,6 +13,4 @@ Save Images: Download generated images as PNG files.
 # Model Explanation
 The app uses the runwayml/stable-diffusion-v1-5 model from Hugging Face's Diffusers library, a pre-trained Stable Diffusion model. Stable Diffusion is a latent diffusion model that generates high-quality images from text prompts by iteratively denoising a random noise vector guided by the text embedding. The model runs with torch.float16 precision to optimize performance on GPUs.
 # Prerequisites
-Python 3.8+
-A GPU with at least 8GB VRAM (recommended for faster generation)
-CUDA (if running on GPU)
+Python 3.8+  A GPU with at least 8GB VRAM (recommended for faster generation)   CUDA (if running on GPU)
